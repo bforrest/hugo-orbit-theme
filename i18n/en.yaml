@@ -1,7 +1,7 @@
 - id: education
   translation: Education
 - id: experiences
-  translation: Experiences
+  translation: Employers
 - id: interests
   translation: Interests
 - id: language
@@ -12,3 +12,5 @@
   translation: Skills & Proficiency
 - id: summary
   translation: Career Profile
+- certs:
+    translation: Certifications
