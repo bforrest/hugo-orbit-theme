@@ -12,5 +12,5 @@
   translation: Skills & Proficiency
 - id: summary
   translation: Career Profile
-- certs:
+- id: certs
     translation: Certifications
