@@ -5,7 +5,7 @@
                 </div><!--//intro-->
 				{{ range .Site.Params.projects.list }}
                 <div class="item">
-                    <span class="project-title"><a href="{{ .url }}">{{ .title }}</a></span> - <span class="project-tagline">{{ with .tagline }}{{ . | markdownify }}{{ end }}</span>
+                    <h4 class="project-title"><a href="{{ .url }}">{{ .title }}</a></h4> <span class="project-tagline">{{ with .tagline }}{{ . | markdownify }}{{ end }}</span>
                 </div><!--//item-->
 				{{ end }}
             </section><!--//section-->
